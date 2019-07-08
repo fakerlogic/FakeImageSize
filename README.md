@@ -22,7 +22,7 @@ pod 'FakeImageSize'
 
 ## Author
 
-kimihelen@gmail.com, caoxz@ap-ec.cn
+kimihelen@gmail.com
 
 ## License
 

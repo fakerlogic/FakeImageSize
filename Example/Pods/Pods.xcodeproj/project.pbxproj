@@ -14,6 +14,7 @@
 		62A0E63676BC11365872BDC12CC35256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7E0C98C65BF727107F81F5E74911C1B5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5599F85A028D909EF2552CF90A1EE5 /* ReplaceMe.swift */; };
 		89CCDC8251C2881F163BE94C3B090F3E /* FakeImageSize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF4CE4EF959D1067CB474BFAE924695 /* FakeImageSize-dummy.m */; };
+		B72DD60722D3417F004C81F3 /* ImageSizeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72DD60622D3417F004C81F3 /* ImageSizeFetcher.swift */; };
 		B82A046756417EA4CB57E0CC0A04899D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		FD0F7ED9D8058A8CD2D605124159EC0A /* Pods-FakeImageSize_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2F19CFD3F66D59D05C93B9324DAAC /* Pods-FakeImageSize_Tests-dummy.m */; };
 		FE6EB83E45820DE1F92CBF80660D126D /* Pods-FakeImageSize_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE5E513357BBB224A8CFA3965911B83 /* Pods-FakeImageSize_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B5C3321B1D3799876C05995279E07FC /* Pods_FakeImageSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FakeImageSize_Example.framework; path = "Pods-FakeImageSize_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C3321B1D3799876C05995279E07FC /* Pods_FakeImageSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeImageSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA2F19CFD3F66D59D05C93B9324DAAC /* Pods-FakeImageSize_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakeImageSize_Tests-dummy.m"; sourceTree = "<group>"; };
 		1B347DF46C82DDC3BC4161B987EE83A9 /* Pods-FakeImageSize_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakeImageSize_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1CF4CE4EF959D1067CB474BFAE924695 /* FakeImageSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FakeImageSize-dummy.m"; sourceTree = "<group>"; };
 		289D1E99416D43015AC3B11EAB12C0CC /* Pods-FakeImageSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		34AEFF69A93241DEDC78E04B16A22BC0 /* Pods-FakeImageSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		48C3582A071E2479E2A8D4DC1019722B /* FakeImageSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FakeImageSize.framework; path = FakeImageSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C3582A071E2479E2A8D4DC1019722B /* FakeImageSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FakeImageSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E996F3ABBB487C5F0CAE4FF896206F4 /* Pods-FakeImageSize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		543DDC14823AB948C6F585222E83FC83 /* Pods-FakeImageSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55F25904CD173B597ABCE1E5E4DCB654 /* Pods-FakeImageSize_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakeImageSize_Tests.modulemap"; sourceTree = "<group>"; };
@@ -52,19 +53,20 @@
 		62D51844E17020A7C98AE1FEEF60118F /* FakeImageSize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakeImageSize.xcconfig; sourceTree = "<group>"; };
 		73E5FBA225082D6BBFDC55AA9DDF8A91 /* FakeImageSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FakeImageSize.modulemap; sourceTree = "<group>"; };
 		74596748D47D75AF76F3ABFEF765058C /* Pods-FakeImageSize_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakeImageSize_Example-umbrella.h"; sourceTree = "<group>"; };
-		763428790559D55EF41F11C001414651 /* Pods_FakeImageSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FakeImageSize_Tests.framework; path = "Pods-FakeImageSize_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763428790559D55EF41F11C001414651 /* Pods_FakeImageSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeImageSize_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80619E614AF9DF8E895B644C66228B0A /* Pods-FakeImageSize_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Tests-Info.plist"; sourceTree = "<group>"; };
 		8731E3028AEDBBDF409B99592B337951 /* Pods-FakeImageSize_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Example-Info.plist"; sourceTree = "<group>"; };
-		8B2F2CA0F3CC15C4353A8D41310516B3 /* FakeImageSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FakeImageSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B2F2CA0F3CC15C4353A8D41310516B3 /* FakeImageSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FakeImageSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3C0FD60D6E83BBAAB63DA263D6D5ADA /* Pods-FakeImageSize_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakeImageSize_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A8E866A2D120F70820AEF5A5BBA769E9 /* FakeImageSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeImageSize-umbrella.h"; sourceTree = "<group>"; };
-		ABA3BEBA558098BAF521F589CACEFABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ABA3BEBA558098BAF521F589CACEFABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AD1279EA1B5CFF1EFBE86F27B7341D4E /* Pods-FakeImageSize_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B72DD60622D3417F004C81F3 /* ImageSizeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizeFetcher.swift; sourceTree = "<group>"; };
 		BFE5E513357BBB224A8CFA3965911B83 /* Pods-FakeImageSize_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakeImageSize_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C68891AB69459300465348A1BD842610 /* Pods-FakeImageSize_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakeImageSize_Example.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9F13AAFD9BED7200B94FE71D0B4ABBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9F13AAFD9BED7200B94FE71D0B4ABBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E22BD40510620F686CA1C3711A1ACD11 /* Pods-FakeImageSize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E475591E329A5A60BB1CC109A9AF60D8 /* FakeImageSize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FakeImageSize-Info.plist"; sourceTree = "<group>"; };
 		F03E95B0C760A807480B6E2E6578F061 /* FakeImageSize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeImageSize-prefix.pch"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5599F85A028D909EF2552CF90A1EE5 /* ReplaceMe.swift */,
+				B72DD60622D3417F004C81F3 /* ImageSizeFetcher.swift */,
 				2FF2E83FFB5CEF531D0779DFB18FCF96 /* Pod */,
 				81FE3EF9CDDD89746657A41F44F65954 /* Support Files */,
 			);
@@ -321,6 +324,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -373,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89CCDC8251C2881F163BE94C3B090F3E /* FakeImageSize-dummy.m in Sources */,
+				B72DD60722D3417F004C81F3 /* ImageSizeFetcher.swift in Sources */,
 				7E0C98C65BF727107F81F5E74911C1B5 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
