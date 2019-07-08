@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06581771444722A68937C340 /* FakeImageSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FakeImageSize.podspec; path = ../FakeImageSize.podspec; sourceTree = "<group>"; };
+		06581771444722A68937C340 /* FakeImageSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FakeImageSize.podspec; path = ../FakeImageSize.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* FakeImageSize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeImageSize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6507789D9FDC09B885EE6FC1 /* Pods_FakeImageSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeImageSize_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ED521DBBA27569A36B6A79 /* Pods-FakeImageSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeImageSize_Tests.release.xcconfig"; path = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4598133139F845B1F566F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B4598133139F845B1F566F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE73EEEF7DAA1144E1734461 /* Pods-FakeImageSize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeImageSize_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5E54A02C77A7A2755A7807 /* Pods-FakeImageSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeImageSize_Example.debug.xcconfig"; path = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D153A3705AC155DF3DB1D5F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D153A3705AC155DF3DB1D5F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DAE273A67C35D7FCEABB7093 /* Pods-FakeImageSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeImageSize_Example.release.xcconfig"; path = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F868478CF53B5068E8FE80A7 /* Pods_FakeImageSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeImageSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				BE73EEEF7DAA1144E1734461 /* Pods-FakeImageSize_Tests.debug.xcconfig */,
 				A5ED521DBBA27569A36B6A79 /* Pods-FakeImageSize_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -483,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FakeImageSize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FakeImageSize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

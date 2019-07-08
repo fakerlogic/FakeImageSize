@@ -1,0 +1,16 @@
+PODS:
+  - FakeImageSize (0.1.0)
+
+DEPENDENCIES:
+  - FakeImageSize (from `../`)
+
+EXTERNAL SOURCES:
+  FakeImageSize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FakeImageSize: a6de46e70ea2f08f8a3c051e29a364df74d0d2e6
+
+PODFILE CHECKSUM: e47c7ecf795657b46d4c721a37604156b96aff15
+
+COCOAPODS: 1.6.1

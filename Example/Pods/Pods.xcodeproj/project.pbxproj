@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA05634B35EDC1E8E9132D008C485D0 /* Pods-FakeImageSize_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74596748D47D75AF76F3ABFEF765058C /* Pods-FakeImageSize_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289ABF564024BBA67E964FE83BA1C2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		53872122C9122C53526FE3C3023E3A3F /* Pods-FakeImageSize_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A92199F6185F5368EBCFA4108B19D44 /* Pods-FakeImageSize_Example-dummy.m */; };
+		5DE138760F8B842435372AE95DEBEC5E /* FakeImageSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E866A2D120F70820AEF5A5BBA769E9 /* FakeImageSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A0E63676BC11365872BDC12CC35256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7E0C98C65BF727107F81F5E74911C1B5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5599F85A028D909EF2552CF90A1EE5 /* ReplaceMe.swift */; };
+		89CCDC8251C2881F163BE94C3B090F3E /* FakeImageSize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF4CE4EF959D1067CB474BFAE924695 /* FakeImageSize-dummy.m */; };
+		B82A046756417EA4CB57E0CC0A04899D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FD0F7ED9D8058A8CD2D605124159EC0A /* Pods-FakeImageSize_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2F19CFD3F66D59D05C93B9324DAAC /* Pods-FakeImageSize_Tests-dummy.m */; };
+		FE6EB83E45820DE1F92CBF80660D126D /* Pods-FakeImageSize_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE5E513357BBB224A8CFA3965911B83 /* Pods-FakeImageSize_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5236CA9A30C80E075C035A4B14C2911D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846912553EAFAFD97122367D38CB0261;
+			remoteInfo = "Pods-FakeImageSize_Example";
+		};
+		F80C0973EE0A4981DA1C276DE8C92C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6462B72B506BBB4488464D42CDA7531;
+			remoteInfo = FakeImageSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5C3321B1D3799876C05995279E07FC /* Pods_FakeImageSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FakeImageSize_Example.framework; path = "Pods-FakeImageSize_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA2F19CFD3F66D59D05C93B9324DAAC /* Pods-FakeImageSize_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakeImageSize_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B347DF46C82DDC3BC4161B987EE83A9 /* Pods-FakeImageSize_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakeImageSize_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CF4CE4EF959D1067CB474BFAE924695 /* FakeImageSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FakeImageSize-dummy.m"; sourceTree = "<group>"; };
+		289D1E99416D43015AC3B11EAB12C0CC /* Pods-FakeImageSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34AEFF69A93241DEDC78E04B16A22BC0 /* Pods-FakeImageSize_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48C3582A071E2479E2A8D4DC1019722B /* FakeImageSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FakeImageSize.framework; path = FakeImageSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E996F3ABBB487C5F0CAE4FF896206F4 /* Pods-FakeImageSize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		543DDC14823AB948C6F585222E83FC83 /* Pods-FakeImageSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakeImageSize_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55F25904CD173B597ABCE1E5E4DCB654 /* Pods-FakeImageSize_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakeImageSize_Tests.modulemap"; sourceTree = "<group>"; };
+		5A92199F6185F5368EBCFA4108B19D44 /* Pods-FakeImageSize_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakeImageSize_Example-dummy.m"; sourceTree = "<group>"; };
+		5E5599F85A028D909EF2552CF90A1EE5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FakeImageSize/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		62D51844E17020A7C98AE1FEEF60118F /* FakeImageSize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakeImageSize.xcconfig; sourceTree = "<group>"; };
+		73E5FBA225082D6BBFDC55AA9DDF8A91 /* FakeImageSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FakeImageSize.modulemap; sourceTree = "<group>"; };
+		74596748D47D75AF76F3ABFEF765058C /* Pods-FakeImageSize_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakeImageSize_Example-umbrella.h"; sourceTree = "<group>"; };
+		763428790559D55EF41F11C001414651 /* Pods_FakeImageSize_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FakeImageSize_Tests.framework; path = "Pods-FakeImageSize_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80619E614AF9DF8E895B644C66228B0A /* Pods-FakeImageSize_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Tests-Info.plist"; sourceTree = "<group>"; };
+		8731E3028AEDBBDF409B99592B337951 /* Pods-FakeImageSize_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Example-Info.plist"; sourceTree = "<group>"; };
+		8B2F2CA0F3CC15C4353A8D41310516B3 /* FakeImageSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FakeImageSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C0FD60D6E83BBAAB63DA263D6D5ADA /* Pods-FakeImageSize_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakeImageSize_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A8E866A2D120F70820AEF5A5BBA769E9 /* FakeImageSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeImageSize-umbrella.h"; sourceTree = "<group>"; };
+		ABA3BEBA558098BAF521F589CACEFABC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD1279EA1B5CFF1EFBE86F27B7341D4E /* Pods-FakeImageSize_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFE5E513357BBB224A8CFA3965911B83 /* Pods-FakeImageSize_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakeImageSize_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C68891AB69459300465348A1BD842610 /* Pods-FakeImageSize_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakeImageSize_Example.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9F13AAFD9BED7200B94FE71D0B4ABBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E22BD40510620F686CA1C3711A1ACD11 /* Pods-FakeImageSize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakeImageSize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E475591E329A5A60BB1CC109A9AF60D8 /* FakeImageSize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FakeImageSize-Info.plist"; sourceTree = "<group>"; };
+		F03E95B0C760A807480B6E2E6578F061 /* FakeImageSize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeImageSize-prefix.pch"; sourceTree = "<group>"; };
+		F9891EC1E367CE2E4BAD8CE030DF0440 /* Pods-FakeImageSize_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakeImageSize_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073AFFF2C840436F6B8458681AFF700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289ABF564024BBA67E964FE83BA1C2B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2070163D23CE318B8723D670FBC6D988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A0E63676BC11365872BDC12CC35256 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F935F671C7097EBFEF24A79DBADD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82A046756417EA4CB57E0CC0A04899D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7B1B038E9176AC98B19C47B2EED90F /* FakeImageSize */ = {
+			isa = PBXGroup;
+			children = (
+				5E5599F85A028D909EF2552CF90A1EE5 /* ReplaceMe.swift */,
+				2FF2E83FFB5CEF531D0779DFB18FCF96 /* Pod */,
+				81FE3EF9CDDD89746657A41F44F65954 /* Support Files */,
+			);
+			name = FakeImageSize;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2FF2E83FFB5CEF531D0779DFB18FCF96 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B2F2CA0F3CC15C4353A8D41310516B3 /* FakeImageSize.podspec */,
+				ABA3BEBA558098BAF521F589CACEFABC /* LICENSE */,
+				D9F13AAFD9BED7200B94FE71D0B4ABBC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3C7DCD7E2145562F478AACAF51CB8F88 /* Pods-FakeImageSize_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55F25904CD173B597ABCE1E5E4DCB654 /* Pods-FakeImageSize_Tests.modulemap */,
+				1B347DF46C82DDC3BC4161B987EE83A9 /* Pods-FakeImageSize_Tests-acknowledgements.markdown */,
+				E22BD40510620F686CA1C3711A1ACD11 /* Pods-FakeImageSize_Tests-acknowledgements.plist */,
+				1AA2F19CFD3F66D59D05C93B9324DAAC /* Pods-FakeImageSize_Tests-dummy.m */,
+				80619E614AF9DF8E895B644C66228B0A /* Pods-FakeImageSize_Tests-Info.plist */,
+				BFE5E513357BBB224A8CFA3965911B83 /* Pods-FakeImageSize_Tests-umbrella.h */,
+				4E996F3ABBB487C5F0CAE4FF896206F4 /* Pods-FakeImageSize_Tests.debug.xcconfig */,
+				34AEFF69A93241DEDC78E04B16A22BC0 /* Pods-FakeImageSize_Tests.release.xcconfig */,
+			);
+			name = "Pods-FakeImageSize_Tests";
+			path = "Target Support Files/Pods-FakeImageSize_Tests";
+			sourceTree = "<group>";
+		};
+		81FE3EF9CDDD89746657A41F44F65954 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73E5FBA225082D6BBFDC55AA9DDF8A91 /* FakeImageSize.modulemap */,
+				62D51844E17020A7C98AE1FEEF60118F /* FakeImageSize.xcconfig */,
+				1CF4CE4EF959D1067CB474BFAE924695 /* FakeImageSize-dummy.m */,
+				E475591E329A5A60BB1CC109A9AF60D8 /* FakeImageSize-Info.plist */,
+				F03E95B0C760A807480B6E2E6578F061 /* FakeImageSize-prefix.pch */,
+				A8E866A2D120F70820AEF5A5BBA769E9 /* FakeImageSize-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FakeImageSize";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A5D500011110658B5F97E767F64C270E /* Pods-FakeImageSize_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C68891AB69459300465348A1BD842610 /* Pods-FakeImageSize_Example.modulemap */,
+				F9891EC1E367CE2E4BAD8CE030DF0440 /* Pods-FakeImageSize_Example-acknowledgements.markdown */,
+				AD1279EA1B5CFF1EFBE86F27B7341D4E /* Pods-FakeImageSize_Example-acknowledgements.plist */,
+				5A92199F6185F5368EBCFA4108B19D44 /* Pods-FakeImageSize_Example-dummy.m */,
+				A3C0FD60D6E83BBAAB63DA263D6D5ADA /* Pods-FakeImageSize_Example-frameworks.sh */,
+				8731E3028AEDBBDF409B99592B337951 /* Pods-FakeImageSize_Example-Info.plist */,
+				74596748D47D75AF76F3ABFEF765058C /* Pods-FakeImageSize_Example-umbrella.h */,
+				289D1E99416D43015AC3B11EAB12C0CC /* Pods-FakeImageSize_Example.debug.xcconfig */,
+				543DDC14823AB948C6F585222E83FC83 /* Pods-FakeImageSize_Example.release.xcconfig */,
+			);
+			name = "Pods-FakeImageSize_Example";
+			path = "Target Support Files/Pods-FakeImageSize_Example";
+			sourceTree = "<group>";
+		};
+		B16E3120D0665B9CAD450A0F88E12A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C3582A071E2479E2A8D4DC1019722B /* FakeImageSize.framework */,
+				0B5C3321B1D3799876C05995279E07FC /* Pods_FakeImageSize_Example.framework */,
+				763428790559D55EF41F11C001414651 /* Pods_FakeImageSize_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD201E6005D21E634050ABD08F724480 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D500011110658B5F97E767F64C270E /* Pods-FakeImageSize_Example */,
+				3C7DCD7E2145562F478AACAF51CB8F88 /* Pods-FakeImageSize_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FBEC22F4AE91CC9F085451C84D812274 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B16E3120D0665B9CAD450A0F88E12A37 /* Products */,
+				BD201E6005D21E634050ABD08F724480 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEC22F4AE91CC9F085451C84D812274 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B1B038E9176AC98B19C47B2EED90F /* FakeImageSize */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		156E7FA24CE637A30026A2C07B1501EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA05634B35EDC1E8E9132D008C485D0 /* Pods-FakeImageSize_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6D9071550DE717BD07ECDA4C0D8AB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE138760F8B842435372AE95DEBEC5E /* FakeImageSize-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B6CA4A4FC6B95C101427201C96B901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6EB83E45820DE1F92CBF80660D126D /* Pods-FakeImageSize_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		846912553EAFAFD97122367D38CB0261 /* Pods-FakeImageSize_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE31A131CB410525E27981DEC5E6E99 /* Build configuration list for PBXNativeTarget "Pods-FakeImageSize_Example" */;
+			buildPhases = (
+				156E7FA24CE637A30026A2C07B1501EA /* Headers */,
+				A2127224CBDEA2D66BB4DC5F68738AC9 /* Sources */,
+				2070163D23CE318B8723D670FBC6D988 /* Frameworks */,
+				5409D2E94406AD98753260117359FD4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F35FDD4A29EC0E5610BA9156C81FACC /* PBXTargetDependency */,
+			);
+			name = "Pods-FakeImageSize_Example";
+			productName = "Pods-FakeImageSize_Example";
+			productReference = 0B5C3321B1D3799876C05995279E07FC /* Pods_FakeImageSize_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AB3AD55845FFDA8E9285FDF1C7DB5AB /* Pods-FakeImageSize_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA56940FE29705F1D2C9779AB7484F7 /* Build configuration list for PBXNativeTarget "Pods-FakeImageSize_Tests" */;
+			buildPhases = (
+				D0B6CA4A4FC6B95C101427201C96B901 /* Headers */,
+				FAEC19612A2A50CED1CE0BE9FB506F41 /* Sources */,
+				073AFFF2C840436F6B8458681AFF700B /* Frameworks */,
+				6ED9809C4115F10BEABFFE063807CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7085471E206915F435D39C5168CF19A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FakeImageSize_Tests";
+			productName = "Pods-FakeImageSize_Tests";
+			productReference = 763428790559D55EF41F11C001414651 /* Pods_FakeImageSize_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6462B72B506BBB4488464D42CDA7531 /* FakeImageSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45017CB89A489887AAF63B944A529755 /* Build configuration list for PBXNativeTarget "FakeImageSize" */;
+			buildPhases = (
+				CE6D9071550DE717BD07ECDA4C0D8AB1 /* Headers */,
+				DE40DA9EB7E882F0BF3193D3D1336F40 /* Sources */,
+				26F935F671C7097EBFEF24A79DBADD1E /* Frameworks */,
+				3375A5DF77E6D21984297E9B1A9506F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeImageSize;
+			productName = FakeImageSize;
+			productReference = 48C3582A071E2479E2A8D4DC1019722B /* FakeImageSize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B16E3120D0665B9CAD450A0F88E12A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6462B72B506BBB4488464D42CDA7531 /* FakeImageSize */,
+				846912553EAFAFD97122367D38CB0261 /* Pods-FakeImageSize_Example */,
+				8AB3AD55845FFDA8E9285FDF1C7DB5AB /* Pods-FakeImageSize_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3375A5DF77E6D21984297E9B1A9506F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5409D2E94406AD98753260117359FD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED9809C4115F10BEABFFE063807CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2127224CBDEA2D66BB4DC5F68738AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53872122C9122C53526FE3C3023E3A3F /* Pods-FakeImageSize_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40DA9EB7E882F0BF3193D3D1336F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CCDC8251C2881F163BE94C3B090F3E /* FakeImageSize-dummy.m in Sources */,
+				7E0C98C65BF727107F81F5E74911C1B5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC19612A2A50CED1CE0BE9FB506F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F7ED9D8058A8CD2D605124159EC0A /* Pods-FakeImageSize_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F35FDD4A29EC0E5610BA9156C81FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FakeImageSize;
+			target = E6462B72B506BBB4488464D42CDA7531 /* FakeImageSize */;
+			targetProxy = F80C0973EE0A4981DA1C276DE8C92C1A /* PBXContainerItemProxy */;
+		};
+		7085471E206915F435D39C5168CF19A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FakeImageSize_Example";
+			target = 846912553EAFAFD97122367D38CB0261 /* Pods-FakeImageSize_Example */;
+			targetProxy = 5236CA9A30C80E075C035A4B14C2911D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075FC2C29D0A4D83CA8850ACB217B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AEFF69A93241DEDC78E04B16A22BC0 /* Pods-FakeImageSize_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3D53899429B03D76E47163457442C0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D51844E17020A7C98AE1FEEF60118F /* FakeImageSize.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakeImageSize/FakeImageSize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakeImageSize/FakeImageSize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakeImageSize/FakeImageSize.modulemap";
+				PRODUCT_MODULE_NAME = FakeImageSize;
+				PRODUCT_NAME = FakeImageSize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		561591D0729567EA576C5791FA80EA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D51844E17020A7C98AE1FEEF60118F /* FakeImageSize.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakeImageSize/FakeImageSize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakeImageSize/FakeImageSize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakeImageSize/FakeImageSize.modulemap";
+				PRODUCT_MODULE_NAME = FakeImageSize;
+				PRODUCT_NAME = FakeImageSize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A69BB6EF7BA155F64C604E10D715DA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543DDC14823AB948C6F585222E83FC83 /* Pods-FakeImageSize_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF5EAB15146D9D0FADA5DFF2B7FCA688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E996F3ABBB487C5F0CAE4FF896206F4 /* Pods-FakeImageSize_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeImageSize_Tests/Pods-FakeImageSize_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E740322A4466CA62E44A2ACB42972DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289D1E99416D43015AC3B11EAB12C0CC /* Pods-FakeImageSize_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakeImageSize_Example/Pods-FakeImageSize_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA56940FE29705F1D2C9779AB7484F7 /* Build configuration list for PBXNativeTarget "Pods-FakeImageSize_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5EAB15146D9D0FADA5DFF2B7FCA688 /* Debug */,
+				075FC2C29D0A4D83CA8850ACB217B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45017CB89A489887AAF63B944A529755 /* Build configuration list for PBXNativeTarget "FakeImageSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561591D0729567EA576C5791FA80EA85 /* Debug */,
+				3D53899429B03D76E47163457442C0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE31A131CB410525E27981DEC5E6E99 /* Build configuration list for PBXNativeTarget "Pods-FakeImageSize_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E740322A4466CA62E44A2ACB42972DBD /* Debug */,
+				A69BB6EF7BA155F64C604E10D715DA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
